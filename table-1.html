@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table-1</title>
+        <style>
+            section {
+                display: flex;
+                justify-content: center;
+            }
+
+            h1 {
+                text-align: center;
+                padding: 20px;
+            }
+            table {
+                width: 150px;
+                border: 1px solid;
+                border-collapse: collapse;
+            }
+            td {
+                border: 1px solid black;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+            #end {
+                text-align: end;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Exercícios de tabela!</h1>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="center">
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr id="end">
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br />
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr class="center">
+                            <td colspan="3">4</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br />
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td rowspan="3" class="center">3</td>
+                        </tr>
+                        <tr class="center">
+                            <td colspan="2">4</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
