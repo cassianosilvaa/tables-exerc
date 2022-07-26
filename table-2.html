@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table-2</title>
+        <style>
+            h1 {
+                text-align: center;
+                padding: 20px;
+            }
+            section {
+                display: flex;
+                justify-content: center;
+            }
+            table {
+                width: 500px;
+                border: 1px solid;
+                border-collapse: collapse;
+            }
+            td {
+                border: 1px solid black;
+                padding: 40px;
+                text-align: center;
+            }
+            #pad {
+                padding: 10px;
+            }
+            #marg {
+                padding: 180px;
+            }
+
+            footer {
+                margin: 100px;
+                text-align: center;
+            }
+            ul {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Exercícios de tabela!</h1>
+        </header>
+        <br />
+        <main>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <td colspan="2">TOPO</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MENU</td>
+                            <td id="marg">CONTEÚDO</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" id="pad">RODAPÉ</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="table-1.html">Página 1</a>
+                    </li>
+                    <li>
+                        <a href="table-3.html">Página 3</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

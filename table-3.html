@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table-3</title>
+        <style>
+            section {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            h1 {
+                text-align: center;
+                padding: 20px;
+            }
+
+            tr,
+            td {
+                width: 100px;
+                height: 100px;
+
+                border-style: outset;
+            }
+            footer {
+                margin: 100px;
+                text-align: center;
+            }
+            ul {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Exercícios de tabela!</h1>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <tbody id="table-1">
+                        <tr>
+                            <td colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br />
+            <br />
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br />
+            <br />
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan="5"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td rowspan="2"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="table-1.html">Página 1</a>
+                    </li>
+                    <li>
+                        <a href="table-2.html">Página 2</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
